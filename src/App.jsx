@@ -6,7 +6,9 @@ function App() {
 
   return (
     <div className='min-h-screen bg-gray-100 flex flex-col items-center justify-center'>
-      <CurrenyConverter/>
+      <div className='container'>
+        <CurrenyConverter/>
+      </div>
     </div>
   )
 }
